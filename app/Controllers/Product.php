@@ -243,6 +243,7 @@ class Product extends BaseController
               //return $this->response->setJSON($data); 
 
               return $this->response->setJSON($data);
+             
       
       
     }

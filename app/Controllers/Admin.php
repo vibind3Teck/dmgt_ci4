@@ -90,12 +90,12 @@ $brand_logo =  $this->request->getFile('brand_image');
 
 
 if(!$this->request->getFile('edit_brand_logo'))){
-    echo"jjjj";
+   /* echo"jjjj";*/
     //echo"<pre>"; print_r($this->request->getPost());
 }else{
-    echo"ccc";
+  /*  echo"ccc";
     echo"<pre>"; print_r($this->request->getPost());
-    echo"<pre>"; print_r($this->request->getFiles());
+    echo"<pre>"; print_r($this->request->getFiles());*/
 }
         $id = $this->request->getPost('brand_id');
         $data = [
