@@ -1,0 +1,379 @@
+CRITICAL - 2022-01-27 00:22:03 --> Undefined variable: brand
+#0 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 83, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->editBrand()
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 03:04:07 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp\htdocs\dmgt_ci4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/Category')
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin/Category')
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-27 03:04:26 --> Unknown column 'category_name' in 'where clause'
+CRITICAL - 2022-01-27 03:04:26 --> Unknown column 'category_name' in 'where clause'
+#0 C:\xampp\htdocs\dmgt_ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\dmgt_ci4\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dmgt_ci4\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('pulser', 'category_name', Array, NULL)
+#6 C:\xampp\htdocs\dmgt_ci4\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('category_name', 'category_name', 'pulser', Array, Array)
+#7 C:\xampp\htdocs\dmgt_ci4\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(154): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->addCategory()
+#10 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-01-27 03:05:57 --> syntax error, unexpected ''category_name'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\xampp\htdocs\dmgt_ci4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\dmgt_ci4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Cate...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Cate...')
+#3 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(16): spl_autoload_call('App\\Models\\Cate...')
+#4 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(802): App\Controllers\Admin->__construct()
+#5 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-27 03:16:49 --> Undefined property: App\Controllers\Admin::$db
+#0 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(131): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 131, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->Category()
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 03:18:03 --> Undefined property: App\Controllers\Admin::$db
+#0 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(131): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 131, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->Category()
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-27 03:19:51 --> Unknown column 'brand.brand_name' in 'field list'
+CRITICAL - 2022-01-27 03:19:51 --> Unknown column 'brand.brand_name' in 'field list'
+#0 C:\xampp\htdocs\dmgt_ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `cat`.*,...', 0)
+#1 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cat`.*,...')
+#2 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cat`.*,...')
+#3 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `cat`.*,...', Array, false)
+#4 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(136): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->Category()
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-27 03:20:17 --> Unknown column 'brand.name' in 'field list'
+CRITICAL - 2022-01-27 03:20:17 --> Unknown column 'brand.name' in 'field list'
+#0 C:\xampp\htdocs\dmgt_ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `cat`.*,...', 0)
+#1 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cat`.*,...')
+#2 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cat`.*,...')
+#3 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `cat`.*,...', Array, false)
+#4 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(136): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->Category()
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-27 03:20:43 --> Unknown column 'brand.brand_name' in 'field list'
+CRITICAL - 2022-01-27 03:20:43 --> Unknown column 'brand.brand_name' in 'field list'
+#0 C:\xampp\htdocs\dmgt_ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `cat`.*,...', 0)
+#1 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cat`.*,...')
+#2 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cat`.*,...')
+#3 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `cat`.*,...', Array, false)
+#4 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(136): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->Category()
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-27 03:21:29 --> Unknown column 'brand.brand_name' in 'field list'
+CRITICAL - 2022-01-27 03:21:29 --> Unknown column 'brand.brand_name' in 'field list'
+#0 C:\xampp\htdocs\dmgt_ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `cat`.*,...', 0)
+#1 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cat`.*,...')
+#2 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cat`.*,...')
+#3 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `cat`.*,...', Array, false)
+#4 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(136): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->Category()
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-27 03:21:30 --> Unknown column 'brand.brand_name' in 'field list'
+CRITICAL - 2022-01-27 03:21:30 --> Unknown column 'brand.brand_name' in 'field list'
+#0 C:\xampp\htdocs\dmgt_ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `cat`.*,...', 0)
+#1 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cat`.*,...')
+#2 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cat`.*,...')
+#3 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `cat`.*,...', Array, false)
+#4 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(136): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->Category()
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-27 03:21:30 --> Unknown column 'brand.brand_name' in 'field list'
+CRITICAL - 2022-01-27 03:21:30 --> Unknown column 'brand.brand_name' in 'field list'
+#0 C:\xampp\htdocs\dmgt_ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `cat`.*,...', 0)
+#1 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cat`.*,...')
+#2 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cat`.*,...')
+#3 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `cat`.*,...', Array, false)
+#4 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(136): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->Category()
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-27 03:22:02 --> Unknown column 'brand.brand_name' in 'field list'
+CRITICAL - 2022-01-27 03:22:02 --> Unknown column 'brand.brand_name' in 'field list'
+#0 C:\xampp\htdocs\dmgt_ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `cat`.*,...', 0)
+#1 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cat`.*,...')
+#2 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cat`.*,...')
+#3 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `cat`.*,...', Array, false)
+#4 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(136): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->Category()
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-27 03:22:03 --> Unknown column 'brand.brand_name' in 'field list'
+CRITICAL - 2022-01-27 03:22:03 --> Unknown column 'brand.brand_name' in 'field list'
+#0 C:\xampp\htdocs\dmgt_ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `cat`.*,...', 0)
+#1 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cat`.*,...')
+#2 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cat`.*,...')
+#3 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `cat`.*,...', Array, false)
+#4 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(136): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->Category()
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-27 03:22:03 --> Unknown column 'brand.brand_name' in 'field list'
+CRITICAL - 2022-01-27 03:22:03 --> Unknown column 'brand.brand_name' in 'field list'
+#0 C:\xampp\htdocs\dmgt_ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `cat`.*,...', 0)
+#1 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cat`.*,...')
+#2 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cat`.*,...')
+#3 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `cat`.*,...', Array, false)
+#4 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(136): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->Category()
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-27 03:22:03 --> Unknown column 'brand.brand_name' in 'field list'
+CRITICAL - 2022-01-27 03:22:03 --> Unknown column 'brand.brand_name' in 'field list'
+#0 C:\xampp\htdocs\dmgt_ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `cat`.*,...', 0)
+#1 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cat`.*,...')
+#2 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cat`.*,...')
+#3 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `cat`.*,...', Array, false)
+#4 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(136): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->Category()
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-27 03:22:03 --> Unknown column 'brand.brand_name' in 'field list'
+CRITICAL - 2022-01-27 03:22:03 --> Unknown column 'brand.brand_name' in 'field list'
+#0 C:\xampp\htdocs\dmgt_ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `cat`.*,...', 0)
+#1 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cat`.*,...')
+#2 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cat`.*,...')
+#3 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `cat`.*,...', Array, false)
+#4 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(136): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->Category()
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-27 03:22:03 --> Unknown column 'brand.brand_name' in 'field list'
+CRITICAL - 2022-01-27 03:22:03 --> Unknown column 'brand.brand_name' in 'field list'
+#0 C:\xampp\htdocs\dmgt_ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `cat`.*,...', 0)
+#1 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cat`.*,...')
+#2 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cat`.*,...')
+#3 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `cat`.*,...', Array, false)
+#4 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(136): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->Category()
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-27 03:22:04 --> Unknown column 'brand.brand_name' in 'field list'
+CRITICAL - 2022-01-27 03:22:04 --> Unknown column 'brand.brand_name' in 'field list'
+#0 C:\xampp\htdocs\dmgt_ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `cat`.*,...', 0)
+#1 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cat`.*,...')
+#2 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cat`.*,...')
+#3 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `cat`.*,...', Array, false)
+#4 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(136): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->Category()
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-27 03:22:04 --> Unknown column 'brand.brand_name' in 'field list'
+CRITICAL - 2022-01-27 03:22:04 --> Unknown column 'brand.brand_name' in 'field list'
+#0 C:\xampp\htdocs\dmgt_ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `cat`.*,...', 0)
+#1 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cat`.*,...')
+#2 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cat`.*,...')
+#3 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `cat`.*,...', Array, false)
+#4 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(136): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->Category()
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-27 03:22:04 --> Unknown column 'brand.brand_name' in 'field list'
+CRITICAL - 2022-01-27 03:22:04 --> Unknown column 'brand.brand_name' in 'field list'
+#0 C:\xampp\htdocs\dmgt_ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `cat`.*,...', 0)
+#1 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cat`.*,...')
+#2 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cat`.*,...')
+#3 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `cat`.*,...', Array, false)
+#4 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(136): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->Category()
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-27 03:22:04 --> Unknown column 'brand.brand_name' in 'field list'
+CRITICAL - 2022-01-27 03:22:04 --> Unknown column 'brand.brand_name' in 'field list'
+#0 C:\xampp\htdocs\dmgt_ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `cat`.*,...', 0)
+#1 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cat`.*,...')
+#2 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cat`.*,...')
+#3 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `cat`.*,...', Array, false)
+#4 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(136): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->Category()
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-27 03:24:41 --> Unknown table 'dmgt_core.cat'
+CRITICAL - 2022-01-27 03:24:41 --> Unknown table 'dmgt_core.cat'
+#0 C:\xampp\htdocs\dmgt_ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `cat`.*,...', 0)
+#1 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cat`.*,...')
+#2 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cat`.*,...')
+#3 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `cat`.*,...', Array, false)
+#4 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(136): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->Category()
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-27 03:24:59 --> Undefined variable: brand_data
+#0 C:\xampp\htdocs\dmgt_ci4\app\Views\backend\category.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dmgt_ci4\system\Common.php(1089): CodeIgniter\View\View->render('backend/categor...', Array, true)
+#4 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(144): view('backend/categor...', Array)
+#5 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->Category()
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-27 03:25:24 --> Unknown column 'brand.brand_name' in 'field list'
+CRITICAL - 2022-01-27 03:25:24 --> Unknown column 'brand.brand_name' in 'field list'
+#0 C:\xampp\htdocs\dmgt_ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `c`.*, `...', 0)
+#1 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `c`.*, `...')
+#2 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `c`.*, `...')
+#3 C:\xampp\htdocs\dmgt_ci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `c`.*, `...', Array, false)
+#4 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(136): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->Category()
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-27 03:26:12 --> Undefined variable: brand_data
+#0 C:\xampp\htdocs\dmgt_ci4\app\Views\backend\category.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dmgt_ci4\system\Common.php(1089): CodeIgniter\View\View->render('backend/categor...', Array, true)
+#4 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(144): view('backend/categor...', Array)
+#5 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->Category()
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-27 03:27:27 --> syntax error, unexpected '=', expecting ']'
+#0 C:\xampp\htdocs\dmgt_ci4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/Category')
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin/Category')
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 03:29:38 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\dmgt_ci4\system\Common.php(1089): CodeIgniter\View\View->render('backend/categor...', Array, true)
+#3 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(144): view('backend/categor...', Array)
+#4 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->Category()
+#5 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-27 03:40:27 --> syntax error, unexpected '=', expecting ']'
+#0 C:\xampp\htdocs\dmgt_ci4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/Category')
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin/Category')
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 03:40:47 --> syntax error, unexpected '=', expecting ']'
+#0 C:\xampp\htdocs\dmgt_ci4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/Category')
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin/Category')
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 03:40:49 --> syntax error, unexpected '=', expecting ']'
+#0 C:\xampp\htdocs\dmgt_ci4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/Category')
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin/Category')
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 03:40:49 --> syntax error, unexpected '=', expecting ']'
+#0 C:\xampp\htdocs\dmgt_ci4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/Category')
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin/Category')
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 03:40:49 --> syntax error, unexpected '=', expecting ']'
+#0 C:\xampp\htdocs\dmgt_ci4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/Category')
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin/Category')
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 03:46:57 --> Undefined variable: id
+#0 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(201): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 201, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->updateCategory()
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 03:47:28 --> Undefined variable: id
+#0 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(201): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 201, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->updateCategory()
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 04:07:15 --> Undefined variable: brand
+#0 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->addBrand()
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 04:07:20 --> Undefined variable: brand
+#0 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->addBrand()
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 04:28:31 --> Undefined variable: cityModel
+#0 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(253): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 253, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->getCategoryById()
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

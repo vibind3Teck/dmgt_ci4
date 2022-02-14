@@ -1,0 +1,656 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" type="text/css" href="./css/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./css/slick/slick-theme.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="./css/material-icon-min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="css/nouislider.css" type="text/css">
+    <link rel="stylesheet" href="./css/bootstrap-datetimepicker.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <title>DMGT</title>
+  </head>
+  <body>
+    <header>
+      <div class="container m-hide">
+        <div class="header-top pt-3">
+          <div class="header-top_contact">
+            <ul>
+              <li class="mr-4">
+                <a href="tel:+971543059599">
+                  <span class="material-icons mr-2">
+                    call
+                  </span>
+                  + 971543059599
+                </a>
+              </li>
+              <li>
+                <a href="mailto:booking@dubaid3yacht.com">
+                  <span class="material-icons mr-2">
+                    mail
+                  </span>
+                  booking@dubaid3yacht.com
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="header-top_menu">
+            <ul>
+              <li>
+                <a href="#">
+                  About Us
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Contact Us
+                </a>
+              </li>
+              <li>
+                <a href="#" class="pr-0">
+                  Service/waranty request 
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-md-3">
+            <a href="#">
+              <img src="./images/logo.png" alt="">
+            </a>
+          </div>
+          <div class="header-search col-md-6">
+            <div>
+              <select name="brand" id="brand">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+              </select>
+            </div>
+            <div class="d-flex w-100 pl-2">
+              <input type="text" placeholder="Search.." name="search" class="w-100">
+              <button type="submit">
+                <span class="material-icons">
+                  search
+                </span>
+              </button>
+            </div>
+          </div>
+          <div class="col-md-3 d-flex justify-content-end">
+            <a href="#" class="shopping-cart mr-4" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="material-icons mr-2">
+                person
+              </span>
+              <div>
+                Login
+              </div>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#" data-toggle="modal" data-target="#loginModal">Login</a>
+              <a class="dropdown-item" href="#">Orders</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div> 
+            <a href="#" class="shopping-cart">
+              <span class="material-icons mr-2">
+                shopping_cart
+              </span>
+              Cart
+            </a>
+          </div>
+        </div>
+        <hr>
+        <div class="d-flex justify-content-between align-items-center">
+          <nav class="main-nav">
+            <ul>
+              <li>
+                <a href="#" class="d-flex align-items-center">
+                  Shop by categories
+                  <span class="material-icons pl-2">
+                    menu
+                  </span>
+                </a>
+                <!-- First Tier Drop Down -->
+                <ul>
+                    <li class="has-dropdown">
+                      <a href="#">Deck & Hull</a>
+                      <ul>
+                          <li><a href="#">Shop by categoriesShop by categories</a></li>
+                          <li><a href="#">Engine Room</a></li>
+                      </ul>
+                    </li>
+                    <li class="has-dropdown">
+                      <a href="#">Engine Room</a>
+                      <ul>
+                          <li><a href="#">Deck & Hull</a></li>
+                          <li><a href="#">Engine Room</a></li>
+                      </ul>
+                    </li>
+                    <li class="has-dropdown">
+                      <a href="#">Propulsion</a>
+                      <ul>
+                          <li><a href="#">Deck & Hull</a></li>
+                          <li><a href="#">Engine Room</a></li>
+                      </ul>
+                    </li>
+                    <li class="has-dropdown">
+                      <a href="#">Pumps, Plumbing & Sanitary </a>
+                      <ul>
+                          <li><a href="#">Deck & Hull</a></li>
+                          <li><a href="#">Engine Room</a></li>
+                      </ul>
+                    </li>
+                    <li class="has-dropdown">
+                      <a href="#">Ventilation, Hatches & Air Conditioners </a>
+                      <ul>
+                          <li><a href="#">Deck & Hull</a></li>
+                          <li><a href="#">Engine Room</a></li>
+                      </ul>
+                    </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Services</a>
+              </li>
+              <li>
+                <a href="#">tips & tricks</a>
+              </li>
+              <li>
+                <a href="#">Resources</a>
+              </li>
+              <li>
+                <a href="#">Blog</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="clearance-btn">
+            <a href="#">
+              Clearance 
+              <span>
+                Up to 30% Off
+              </span>
+            </a>
+          </div>
+        </div>  
+      </div>
+      <div class="container">
+        <div class="mobile-sub-header">
+          <a href="#">
+            <span class="material-icons">
+              west
+            </span>
+          </a>
+
+          <a href="#" class="shopping-cart">
+            <span class="material-icons mr-2">
+              shopping_cart
+            </span>
+            Cart
+          </a>
+        </div>
+      </div>
+    </header>
+    <section class="m-hide">
+      <div class="sub-banner" style="background: url(./images/sub-banner.jpg);">
+        <div class="container d-flex align-items-center justify-content-center h-100">
+          <h2>
+            Deck & Hull
+          </h2>
+        </div>
+      </div>
+    </section>
+    <section class="breadcrumb-wrapper m-hide">
+      <nav aria-label="breadcrumb">
+        <ol class="container breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Library</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Data</li>
+        </ol>
+      </nav>
+    </section>
+    <div class="container sec-padding_top sec-padding_bottom">
+      <div class="row">
+        <div class="col-lg-12">
+          <ul class="product-list tracker-wrap">
+            <li class="card">
+              <div class="d-md-flex">
+                <div class="mr-4">
+                  <figure>
+                    <img src="./images/product-b.png" alt="">
+                  </figure>
+                </div>
+                <div class="flex-1 my-4 my-md-0">
+                  <h5>
+                    Maneuvering Stabilizing 1
+                  </h5>
+                  <div class="price-tag">
+                    $23.00 
+                    <span>
+                      $29.00
+                    </span>                                                    
+                  </div>
+                </div>
+                <div>
+                  <a href="#" class="btn-link" data-toggle="modal" data-target="#cancelModal">
+                    <span class="material-icons mr-2">
+                    highlight_off
+                    </span>
+                    <span>Cancel Order</span>
+                  </a>
+                  <a href="#" class="btn-link my-2" data-toggle="modal" data-target="#datelModal">
+                    <span class="material-icons mr-2">
+                    event
+                    </span>
+                    <span>Change Date</span>
+                  </a>
+                  <a href="#" class="btn-link">
+                    <span class="material-icons mr-2">
+                    info
+                    </span>
+                    <span>Need Help</span>
+                  </a>
+                </div>
+              </div>
+              <div>
+                <div class="stepper w-100">
+                 <div class="progressbar-wrap">
+                   <ul class="progressbar d-flex">
+                     <li class="active "><div class="pulse1"></div></li>
+                     <li class="active current"><div class="pulse1"></div></li>
+                     <li class=""><div class="pulse1"></div></li>
+                     <li class=" "><div class="pulse1"></div></li>
+                   </ul>
+                   <ul class="stepper-msg">
+                      <li>
+                        <strong>Picked Up</strong><br>
+                        delhi courier .kerala india <br> 
+                        <i>04-09-2020, Evening</i>
+                      </li>
+                      <li>
+                        <strong>In Transit</strong><br>
+                        <i>04-09-2020, Evening</i>
+                      </li>
+                      <li>
+                        <strong>Out FOr Delivery</strong><br>
+                      </li>
+                      <li>
+                        <strong>Delivered</strong><br>
+                         delhi courier .kerala india <br> 
+                        <i>04-09-2020, Evening</i>
+                      </li>
+                   </ul>
+                 </div>
+                 
+                 <div class="clearfix"></div>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div class="card">
+            <h5>Delivery Address</h5>
+            <hr class="black">
+            <!-- <div>
+              <a href="#" class="btn-link float-right" data-toggle="modal" data-target="#address-modal">
+                <span class="material-icons mr-2">
+                edit
+                </span>
+                Edit Adress
+              </a>
+              <div class="clear"></div>
+            </div> -->
+           <div>
+            <strong>
+              Tigin Thomas
+            </strong>
+            <br>
+            <span>Madani stores, Kattungachira, Irinjalakuda, Near police station, Thrissur, Kerala, 680125</span>
+           </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="newsletter-section">
+        <div class="d-md-flex align-items-center">
+          <div class="w-100">
+            <h5>
+              Join our newsletter
+            </h5>
+            <p class="m-0">
+              jQuery and Bootstrap BundlejQuery and Bootstrap Bundle
+            </p>
+         </div>
+         <div class="w-100 mt-3 mt-md-0">
+            <div class="subscribe-wrapper">
+              <input type="text" placeholder="Search.." name="search" class="w-100">
+              <button>
+                Subscribe
+              </button>               
+            </div>
+         </div>
+        </div>
+    </section>
+    <footer class="m-hide">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <a href="#">
+              <img src="./images/footer-logo.png" alt="">
+            </a>
+            <p class="py-4">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
+            </p>
+            <div class="footer-contact">
+              <div>
+                <h6 class="mb-3">Got Question? Call us 24/7</h6>
+                <a href="tel:+971543059599">
+                  + 971543059599
+                </a>
+              </div>
+              <div>
+                <h6 class="mb-3">Got Question? Call us 24/7</h6>
+                <figure>
+                  <img src="./images/payment.png" alt="">
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 col-xl-6 offset-xl-2">
+            <div class="footer-menu">
+              <div>
+                <h6>Information</h6>
+                <ul>
+                  <li>
+                    <a href="#">
+                      About Molla
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      How to shop on Molla
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      Contact us
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      Log in
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      FAQ
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h6>Customer Service</h6>
+                <ul>
+                  <li>
+                    <a href="#">
+                      Payment Methods
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      Money-back guarantee!
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      Returns
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      Shipping
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      Terms and conditions
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      Privacy Policy
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h6>My Account</h6>
+                <ul>
+                  <li>
+                    <a href="#">
+                      View Cart
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      My Wishlist
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      Track My Order
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      Help
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <hr>
+        <div class="d-flex justify-content-between">
+          <span>
+            Copyright © 2021 Molla Store. All Rights Reserved.
+          </span>
+          <span class="powered-by">
+            Powered by <a href="#">d3 teck</a>
+          </span>
+        </div>
+      </div>
+    </footer>
+    <!-- modal start -->
+      <div class="modal fade" id="cancelModal" tabindex="-1" role="dialog" aria-labelledby="cancelModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="cancelModalLabel"></h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn" data-dismiss="modal">Close</button>
+              <button type="button" class="btn">Cancel</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="datelModal" tabindex="-1" role="dialog" aria-labelledby="datelModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="datelModalLabel"></h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <input id="form-date" type="text" class="form-control" placeholder="Date">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn" data-dismiss="modal">Close</button>
+              <button type="button" class="btn">Cancel</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-body p-0">
+                <div class="login-modal-wrap">
+                  <div class="left w-100">
+                    
+                  </div>
+                  <div class="right w-100">
+                    <form>
+                      <input id="username" class="form-input" type="text" placeholder="username">
+
+                      <input id="password" class="form-input" type="password" placeholder="password">
+                      
+                      <div class="text-right">
+                        <a href="" data-dismiss="modal" data-toggle="modal" data-target="#password-modal">Forgot password ?</a>
+                      </div>
+
+                    
+
+                    <div class="my-5">
+                      <p>
+                        By continuing, you agree to DMGT's Terms of Use and 
+                        Privacy Policy.
+                      </p>
+                    </div>
+                    <button type="button" class="btn w-100" data-dismiss="modal">Login</button>
+
+                    </form>
+                    <div class="text-center my-5">
+                      <h6>
+                        New to DMGT ? <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#account-create-Modal">Create an account</a>
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      <div class="modal fade" id="password-modal" tabindex="-1" role="dialog" aria-labelledby="passwordModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-body p-0">
+              <div class="login-modal-wrap">
+                <div class="left w-100">
+                  
+                </div>
+                <div class="right w-100">
+                  <form>
+                    <input id="email" class="form-input" type="text" placeholder="email id">
+                    <div class="mb-5">
+                      <p style="color: red;">
+                        OTP has been sent to your email id
+                      </p>
+                    </div>
+
+                    <button type="button" class="btn w-100" data-dismiss="modal">Send</button>
+                  </form>
+                  <div class="text-center my-5">
+                    <h6>
+                      Already ahve a account ? <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#loginModal">Login</a>
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+
+     <div class="modal fade" id="account-create-Modal" tabindex="-1" role="dialog" aria-labelledby="passwordModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-body p-0">
+                <div class="login-modal-wrap">
+                  <div class="left w-100">
+                    
+                  </div>
+                  <div class="right w-100">
+                    <form>
+                      <input id="user-name" class="form-input" type="text" placeholder="User name">
+                      <input id="email" class="form-input" type="text" placeholder="email">
+                      <input id="phone" class="form-input" type="text" placeholder="Mobile No">
+                      <input id="create-password" class="form-input" type="password" placeholder="password">
+                      <input id="confirm-password" class="form-input" type="password" placeholder="confirm password">
+
+                      <button type="button" class="btn w-100">
+                        <span>Continue</span>
+                        <span>Sign Up</span>
+                      </button>
+                    </form>
+                    <div class="text-center my-5">
+                      <h6>
+                        Already ahve a account ? <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#loginModal">Login</a>
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+    <!-- modal end -->
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <!-- datepicker form start-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.21.0/moment.min.js" type="text/javascript"></script>
+      <script src="./js/bootstrap-datetimepicker.min.js"></script>
+      <script type="text/javascript">
+        $(function() {
+
+           $('#form-date').datetimepicker({
+              // viewMode: 'years',
+               format: 'MM/DD/YYYY'
+
+           });
+            $('#datetimepicker3').datetimepicker({
+                  format: 'LT'
+              });
+            $('#modal-date').datetimepicker({
+              // viewMode: 'years',
+               format: 'MM/DD/YYYY'
+
+           });
+            $('#modal-time').datetimepicker({
+                  format: 'LT'
+              });
+        });
+      </script>
+    <!-- datepicker form end-->
+  </body>
+</html>               

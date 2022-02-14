@@ -1,0 +1,790 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" type="text/css" href="./css/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./css/slick/slick-theme.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="./css/material-icon-min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="css/nouislider.css" type="text/css">
+    <title>DMGT</title>
+  </head>
+  <body>
+    <header>
+      <div class="container m-hide">
+        <div class="header-top pt-3">
+          <div class="header-top_contact">
+            <ul>
+              <li class="mr-4">
+                <a href="tel:+971543059599">
+                  <span class="material-icons mr-2">
+                    call
+                  </span>
+                  + 971543059599
+                </a>
+              </li>
+              <li>
+                <a href="mailto:booking@dubaid3yacht.com">
+                  <span class="material-icons mr-2">
+                    mail
+                  </span>
+                  booking@dubaid3yacht.com
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="header-top_menu">
+            <ul>
+              <li>
+                <a href="#">
+                  About Us
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Contact Us
+                </a>
+              </li>
+              <li>
+                <a href="#" class="pr-0">
+                  Service/waranty request 
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-md-3">
+            <a href="#">
+              <img src="./images/logo.png" alt="">
+            </a>
+          </div>
+          <div class="header-search col-md-6">
+            <div>
+              <select name="brand" id="brand">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+              </select>
+            </div>
+            <div class="d-flex w-100 pl-2">
+              <input type="text" placeholder="Search.." name="search" class="w-100">
+              <button type="submit">
+                <span class="material-icons">
+                  search
+                </span>
+              </button>
+            </div>
+          </div>
+          <div class="col-md-3 d-flex justify-content-end">
+             <a href="#" class="shopping-cart mr-4" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="material-icons mr-2">
+                person
+              </span>
+              <div>
+                Login
+              </div>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#" data-toggle="modal" data-target="#loginModal">Login</a>
+              <a class="dropdown-item" href="#">Orders</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+            <a href="#" class="shopping-cart">
+              <span class="material-icons mr-2">
+                shopping_cart
+              </span>
+              Cart
+            </a>
+          </div>
+        </div>
+        <hr>
+        <div class="d-flex justify-content-between align-items-center">
+          <nav class="main-nav">
+            <ul>
+              <li>
+                <a href="#" class="d-flex align-items-center">
+                  Shop by categories
+                  <span class="material-icons pl-2">
+                    menu
+                  </span>
+                </a>
+                <!-- First Tier Drop Down -->
+                <ul>
+                    <li class="has-dropdown">
+                      <a href="#">Deck & Hull</a>
+                      <ul>
+                          <li><a href="#">Shop by categoriesShop by categories</a></li>
+                          <li><a href="#">Engine Room</a></li>
+                      </ul>
+                    </li>
+                    <li class="has-dropdown">
+                      <a href="#">Engine Room</a>
+                      <ul>
+                          <li><a href="#">Deck & Hull</a></li>
+                          <li><a href="#">Engine Room</a></li>
+                      </ul>
+                    </li>
+                    <li class="has-dropdown">
+                      <a href="#">Propulsion</a>
+                      <ul>
+                          <li><a href="#">Deck & Hull</a></li>
+                          <li><a href="#">Engine Room</a></li>
+                      </ul>
+                    </li>
+                    <li class="has-dropdown">
+                      <a href="#">Pumps, Plumbing & Sanitary </a>
+                      <ul>
+                          <li><a href="#">Deck & Hull</a></li>
+                          <li><a href="#">Engine Room</a></li>
+                      </ul>
+                    </li>
+                    <li class="has-dropdown">
+                      <a href="#">Ventilation, Hatches & Air Conditioners </a>
+                      <ul>
+                          <li><a href="#">Deck & Hull</a></li>
+                          <li><a href="#">Engine Room</a></li>
+                      </ul>
+                    </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Services</a>
+              </li>
+              <li>
+                <a href="#">tips & tricks</a>
+              </li>
+              <li>
+                <a href="#">Resources</a>
+              </li>
+              <li>
+                <a href="#">Blog</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="clearance-btn">
+            <a href="#">
+              Clearance 
+              <span>
+                Up to 30% Off
+              </span>
+            </a>
+          </div>
+        </div>  
+      </div>
+      <div class="container">
+        <div class="mobile-sub-header">
+          <a href="#">
+            <span class="material-icons">
+              west
+            </span>
+          </a>
+
+          <a href="#" class="shopping-cart">
+            <span class="material-icons mr-2">
+              shopping_cart
+            </span>
+            Cart
+          </a>
+        </div>
+      </div>
+    </header>
+    <section class="m-hide">
+      <div class="sub-banner" style="background: url(./images/sub-banner.jpg);">
+        <div class="container d-flex align-items-center justify-content-center h-100">
+          <h2>
+            Deck & Hull
+          </h2>
+        </div>
+      </div>
+    </section>
+    <section class="breadcrumb-wrapper m-hide">
+      <nav aria-label="breadcrumb">
+        <ol class="container breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Library</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Data</li>
+        </ol>
+      </nav>
+    </section>
+    <div class="container sec-padding_top sec-padding_bottom">
+      <div class="row">
+        <div class="col-lg-9">
+          <div class="accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Delivery Address
+                  </button>
+                </h2>
+              </div>
+
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                  <div>
+                    <a href="#" class="btn-link float-right" data-toggle="modal" data-target="#address-modal">
+                      <span class="material-icons mr-2">
+                      edit
+                      </span>
+                      Edit Adress
+                    </a>
+                    <div class="clear"></div>
+                  </div>
+                 <div>
+                  <strong>
+                    Tigin Thomas
+                  </strong>
+                  <br>
+                  <span >Madani stores, Kattungachira, Irinjalakuda, Near police station, Thrissur, Kerala, 680125</span>
+                 </div>
+                 <hr class="black">
+                 <a href="#" class="btn-link " data-toggle="modal" data-target="#address-modal">
+                   <span class="material-icons mr-2">
+                   add
+                   </span>
+                   Add Adress
+                 </a>
+                 <br>
+                 <a hred="#" class="btn" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Deliver Here
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Order Summary
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                  <div class="d-flex product-single-card">
+                     <div>
+                       <div class="">
+                         <figure>
+                           <img src="./images/product-b.png" alt="">
+                         </figure>
+                       </div>
+                     </div>
+                     <div>
+                        <h5>
+                          Maneuvering Stabilizing
+                        </h5>
+                        <div class="price-tag">
+                          $23.00 
+                          <span>
+                            $29.00
+                          </span>                                                    
+                        </div>
+                        <div class="save">
+                          save 33% 
+                        </div>
+                     </div>
+                  </div>
+                  <div class="d-flex product-single-card">
+                     <div>
+                       <div class="">
+                         <figure>
+                           <img src="./images/product-b.png" alt="">
+                         </figure>
+                       </div>
+                     </div>
+                     <div>
+                        <h5>
+                          Maneuvering Stabilizing
+                        </h5>
+                        <div class="price-tag">
+                          $23.00 
+                          <span>
+                            $29.00
+                          </span>                                                    
+                        </div>
+                        <div class="save">
+                          save 33% 
+                        </div>
+                     </div>
+                  </div>
+                  <div>
+                    Order confirmation email will be sent to
+                    <span>
+                      tiginthomas123@gmail.com
+                    </span>
+                  </div>
+                  <br>
+                  <a hred="#" class="btn" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Continue
+                   </a>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Payment options
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                  <h6>
+                    Suggested For You
+                  </h6>
+                  <ul class="card-details mt-4">
+                    <li class="active">
+                      <a href="#">
+                        <div>
+                          HDFC bank Debit card
+                        </div>
+                        <div>
+                          54** *** **** 8795
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <div>
+                          HDFC bank Debit card
+                        </div>
+                        <div>
+                          54** *** **** 8795
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <div>
+                          HDFC bank Debit card
+                        </div>
+                        <div>
+                          54** *** **** 8795
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                  <hr class="black">
+                  <a href="#" class="btn-link " data-toggle="modal" data-target="#card-modal">
+                     <span class="material-icons mr-2">
+                     add
+                     </span>
+                     Add Card
+                   </a>
+                  <hr class="black">
+                  <a href="#" class="btn w-100">
+                    Proceed
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="ordersummery-wrap card mb-4 p-4">
+            <h5>Order Summery</h5>
+            <p class="black my-2">Total Items 
+             <span>(2)</span>
+            </p>
+            <div class="d-flex justify-content-between">
+              <p>Subtotal</p>
+              <p>$80</p>
+            </div>
+            <div class="d-flex justify-content-between">
+              <p>Shipping</p>
+              <p>Free</p>
+            </div>
+            <div class="d-flex justify-content-between">
+              <p>Sales Tax</p>
+              <p>TDB</p>
+            </div>
+            <div class="d-flex justify-content-between">
+              <h5 class="text-uppercase black">Total</h5>
+              <h5 class="black">$80</h5>
+            </div>
+          </div>
+
+          <div class="live-sale_title">
+            <h2>Sale is live</h2>
+          </div>
+          <div class="product-single-ad m-hide">
+            <a href="#">
+              <figure>
+                <img src="./images/ad-3.png" alt="">
+              </figure>
+            </a>
+            <a href="#" class="mt-2">
+              <figure>
+                <img src="./images/ad-4.png" alt="">
+              </figure>
+            </a>
+          </div>
+          <div class="product-single-ad w-hide">
+            <a href="#">
+              <figure>
+                <img src="./images/ad-2-mobile.jpg" alt="">
+              </figure>
+            </a>
+            <a href="#" class="mt-2">
+              <figure>
+                <img src="./images/slider-2.jpg" alt="">
+              </figure>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="newsletter-section">
+        <div class="d-md-flex align-items-center">
+          <div class="w-100">
+            <h5>
+              Join our newsletter
+            </h5>
+            <p class="m-0">
+              jQuery and Bootstrap BundlejQuery and Bootstrap Bundle
+            </p>
+         </div>
+         <div class="w-100 mt-3 mt-md-0">
+            <div class="subscribe-wrapper">
+              <input type="text" placeholder="Search.." name="search" class="w-100">
+              <button>
+                Subscribe
+              </button>               
+            </div>
+         </div>
+        </div>
+    </section>
+    <footer class="m-hide">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <a href="#">
+              <img src="./images/footer-logo.png" alt="">
+            </a>
+            <p class="py-4">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
+            </p>
+            <div class="footer-contact">
+              <div>
+                <h6 class="mb-3">Got Question? Call us 24/7</h6>
+                <a href="tel:+971543059599">
+                  + 971543059599
+                </a>
+              </div>
+              <div>
+                <h6 class="mb-3">Got Question? Call us 24/7</h6>
+                <figure>
+                  <img src="./images/payment.png" alt="">
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 col-xl-6 offset-xl-2">
+            <div class="footer-menu">
+              <div>
+                <h6>Information</h6>
+                <ul>
+                  <li>
+                    <a href="#">
+                      About Molla
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      How to shop on Molla
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      Contact us
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      Log in
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      FAQ
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h6>Customer Service</h6>
+                <ul>
+                  <li>
+                    <a href="#">
+                      Payment Methods
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      Money-back guarantee!
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      Returns
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      Shipping
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      Terms and conditions
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      Privacy Policy
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h6>My Account</h6>
+                <ul>
+                  <li>
+                    <a href="#">
+                      View Cart
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      My Wishlist
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      Track My Order
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      Help
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <hr>
+        <div class="d-flex justify-content-between">
+          <span>
+            Copyright © 2021 Molla Store. All Rights Reserved.
+          </span>
+          <span class="powered-by">
+            Powered by <a href="#">d3 teck</a>
+          </span>
+        </div>
+      </div>
+    </footer>
+    <!-- modal start -->
+      <div class="modal fade" id="address-modal" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="addressLabel">Edit Adress</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="d-flex align-items-center justify-content-between mt-3">
+                <input name="First-Name" type="text" placeholder="First Name" class="mr-4">
+                <input name="Last-Name" type="text" placeholder="Last Name">
+              </div>
+              <input name="address" type="text" placeholder="Address">
+              <input name="address" type="text" placeholder="Apartment, suit, etc (optional)">
+              <div class="d-flex align-items-center justify-content-between">
+                <div class="w-100 mr-4">
+                  <label>Country</label><br>
+                  <input name="Country" type="text" placeholder="Country">
+                </div>
+                <div class="w-100">
+                  <label>State</label><br>
+                  <select>
+                    <option>State 1</option>
+                    <option>State 2</option>
+                    <option>State 3</option>
+                  </select>
+                </div>
+              </div>
+              <div class="d-flex align-items-center justify-content-between">
+                <div class="w-100 mr-4">
+                  <label>City</label><br>
+                  <input name="city" type="text" placeholder="City">
+                </div>
+                <div class="w-100">
+                  <label>Zip code</label><br>
+                  <input name="zipcode" type="text" placeholder="Zip code">
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn" data-dismiss="modal">Edit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="card-modal" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="cardLabel">Add Adress</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div>
+                <input class="card-number" name="card-number" placeholder="Card number" type="tel" maxlength="19" x-autocompletetype="cc-number" autocompletetype="cc-number" autocorrect="off" spellcheck="off" autocapitalize="off">
+                <input class="name" id="the-card-name-element" name="card-number" placeholder="Name on card">
+                <input class="expiry" placeholder="MM / YY" type="tel" maxlength="7" x-autocompletetype="cc-exp" autocompletetype="cc-exp" autocorrect="off" spellcheck="off" autocapitalize="off">
+                <input class="cvc" placeholder="CVC" type="tel" maxlength="3" x-autocompletetype="cc-csc" autocompletetype="cc-csc" autocorrect="off" spellcheck="off" autocapitalize="off">
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn" data-dismiss="modal">Add</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-body p-0">
+                <div class="login-modal-wrap">
+                  <div class="left w-100">
+                    
+                  </div>
+                  <div class="right w-100">
+                    <form>
+                      <input id="username" class="form-input" type="text" placeholder="username">
+
+                      <input id="password" class="form-input" type="password" placeholder="password">
+                      
+                      <div class="text-right">
+                        <a href="" data-dismiss="modal" data-toggle="modal" data-target="#password-modal">Forgot password ?</a>
+                      </div>
+
+                    
+
+                    <div class="my-5">
+                      <p>
+                        By continuing, you agree to DMGT's Terms of Use and 
+                        Privacy Policy.
+                      </p>
+                    </div>
+                    <button type="button" class="btn w-100" data-dismiss="modal">Login</button>
+
+                    </form>
+                    <div class="text-center my-5">
+                      <h6>
+                        New to DMGT ? <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#account-create-Modal">Create an account</a>
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      <div class="modal fade" id="password-modal" tabindex="-1" role="dialog" aria-labelledby="passwordModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-body p-0">
+              <div class="login-modal-wrap">
+                <div class="left w-100">
+                  
+                </div>
+                <div class="right w-100">
+                  <form>
+                    <input id="email" class="form-input" type="text" placeholder="email id">
+                    <div class="mb-5">
+                      <p style="color: red;">
+                        OTP has been sent to your email id
+                      </p>
+                    </div>
+
+                    <button type="button" class="btn w-100" data-dismiss="modal">Send</button>
+                  </form>
+                  <div class="text-center my-5">
+                    <h6>
+                      Already ahve a account ? <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#loginModal">Login</a>
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="account-create-Modal" tabindex="-1" role="dialog" aria-labelledby="passwordModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-body p-0">
+                <div class="login-modal-wrap">
+                  <div class="left w-100">
+                    
+                  </div>
+                  <div class="right w-100">
+                    <form>
+                      <input id="user-name" class="form-input" type="text" placeholder="User name">
+                      <input id="email" class="form-input" type="text" placeholder="email">
+                      <input id="phone" class="form-input" type="text" placeholder="Mobile No">
+                      <input id="create-password" class="form-input" type="password" placeholder="password">
+                      <input id="confirm-password" class="form-input" type="password" placeholder="confirm password">
+
+                      <button type="button" class="btn w-100">
+                        <span>Continue</span>
+                        <span>Sign Up</span>
+                      </button>
+                    </form>
+                    <div class="text-center my-5">
+                      <h6>
+                        Already ahve a account ? <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#loginModal">Login</a>
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+    <!-- modal end -->
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+  
+  </body>
+</html>               

@@ -1,0 +1,168 @@
+@media only screen and (max-width: 1440px) {
+	.product-listing li{
+		width: 30.7%;
+	}
+}
+@media only screen and (max-width: 1200px) {
+	.newsletter-section>div{
+		width: 80%;
+	}
+	.md-hide{
+		display: none;
+	}
+	.banner-bottom .features h5{
+		font-size: 1.5vw;
+	}
+    .mobile-filter{
+        display: flex;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .m-hide{
+      display: none;
+    }
+    .mobile-header{
+    	display: flex;
+    	justify-content: space-between;
+    	align-items: center;
+    	height: 100px;
+    	width: 100%;
+    }
+    .mobile-header input{
+    	height: 30px;
+    }
+    .mobile-sub-header{
+    	display: flex;
+    	justify-content: space-between;
+    	align-items: center;
+    	height: 40px;
+    }
+    .mobile-sub-header a{
+    	color: #fff;
+    }
+    header{
+    	position: sticky;
+    	top: 0px;
+    	box-shadow: 0px 5px 5px -3px #00000078;
+    }
+    .web-filter-sort{
+        display: none;
+    }
+    .mobile-filter{
+    	display: flex;
+        margin-top: 15px;
+    }
+    .categories-slider .card .p-5{
+    	padding: 1.5rem !important;
+    }
+    .container{
+    	width: 100%;
+    	max-width: 100%;
+    }
+    .primary-padding_bottom{
+    	padding-bottom: 50px;
+    }
+    .primary-padding_top{
+    	padding-top: 50px;
+    }
+    .sec-padding{
+    	padding: 20px 0px;
+    }
+    .primary-padding{
+    	padding: 50px 0px;
+    }
+    h3{
+      font-size: 1.5rem;
+    }
+    h5 {
+        font-size: 1rem;
+    }
+    .live-sale_title h2{
+    	 font-size: 1.7rem;
+    }
+    .banner-bottom .features h5{
+    	font-size: 1rem;
+    }
+    .features-slider{
+    	
+    }
+    .banner-bottom .features .material-icons{
+    	font-size: 25px;
+    }
+    /*.mobile-categories{
+    	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }*/
+    .w-hide{
+    	display: block;
+    }
+    .live-sale-section img{
+    	width: 100%;
+    }
+    .mobile-header img{
+       width: 50%;
+    }
+    .mobile-categories li{
+    	padding: 10px;
+    	text-align: center;
+    }
+    .mobile-categories li h6{
+       font-size: 12px;
+       font-weight: 500;
+    }
+    .mobile-categories li img{
+       width: 100%;
+       margin: 0 auto 10px auto;	
+    }
+    .categories-slider .slick-slide, .offer-slider .slick-slide,
+    .shop-brand_slider .slick-slide, .blogs-slider .slick-slide{
+    	margin: 10px;
+    }
+    .categories-slider .img-section{
+    	width: 60%;
+    }
+    .categories-slider h6{
+    	font-size: 14px;
+    	font-weight: 500;
+    }
+    .categories-slider.clearence-sale_slider .img-section{
+    	margin: 15px auto;
+    }
+    .mobile-sub-header{
+      display: flex;
+    }
+    .delete-item span:last-child{
+        display: none;
+    }
+    .login-modal-wrap .left{
+        display: none;
+    }
+    .mobile-filter-content{
+        top: 40px;
+        height: calc(100% - 40px);
+    } 
+}
+@media only screen and (max-width: 767px) {
+    .product-listing li{
+		width: 47%;
+	}
+	.footer-contact{
+		flex-direction: column;
+	}
+	.banner-bottom .features{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+    .progressbar-wrap {
+        width: 600px;
+        overflow: scroll;
+        padding: 50px 0px;
+    }
+    .stepper {
+        overflow: visible;
+        overflow: scroll;
+    }
+    .stepper-msg li {
+        max-width: 140px;
+    }
+}

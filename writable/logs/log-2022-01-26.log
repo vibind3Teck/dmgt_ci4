@@ -1,0 +1,63 @@
+CRITICAL - 2022-01-26 23:16:57 --> Undefined variable: brand
+#0 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->Brands()
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-26 23:17:09 --> Undefined variable: brand_model
+#0 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(802): App\Controllers\Admin->__construct()
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-26 23:17:11 --> Undefined variable: brand_model
+#0 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(802): App\Controllers\Admin->__construct()
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-26 23:17:11 --> Undefined variable: brand_model
+#0 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(802): App\Controllers\Admin->__construct()
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-26 23:17:11 --> Undefined variable: brand_model
+#0 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(802): App\Controllers\Admin->__construct()
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-26 23:17:42 --> Undefined variable: brand
+#0 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->Brands()
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-26 23:42:55 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp\htdocs\dmgt_ci4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/Brands')
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin/Brands')
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-26 23:43:06 --> Undefined variable: POST
+#0 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->editBrand()
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-26 23:48:04 --> syntax error, unexpected '}'
+#0 C:\xampp\htdocs\dmgt_ci4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/editBrand')
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin/editBrand')
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

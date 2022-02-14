@@ -1,0 +1,469 @@
+CRITICAL - 2022-02-07 00:00:00 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Home.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-07 00:00:16 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Home.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-07 00:01:00 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Home.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-07 00:01:13 --> Undefined variable: rowproduct
+#0 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Home.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-07 00:03:28 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Home.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-07 00:11:45 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\xampp\htdocs\dmgt_ci4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\dmgt_ci4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-07 00:11:54 --> Undefined index: cable
+#0 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Home.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-07 00:12:13 --> Undefined index: cable
+#0 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Home.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-07 00:15:19 --> array_flip() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_flip() ex...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Home.php(42): array_flip('cable')
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-07 00:16:01 --> array_flip(): Can only flip STRING and INTEGER values!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_flip(): C...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Home.php(40): array_flip(Array)
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-07 00:19:36 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::left()
+#0 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-07 00:20:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::leftjoin()
+#0 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-07 00:27:34 --> Undefined variable: products
+#0 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Home.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-07 00:27:46 --> Undefined variable: product_data
+#0 C:\xampp\htdocs\dmgt_ci4\app\Views\frontend\base.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(226): CodeIgniter\View\View->render('frontend/base', Array, true)
+#4 C:\xampp\htdocs\dmgt_ci4\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#5 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Home.php(52): view('frontend/home', Array)
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-07 00:28:58 --> Undefined variable: product_data
+#0 C:\xampp\htdocs\dmgt_ci4\app\Views\frontend\base.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(226): CodeIgniter\View\View->render('frontend/base', Array, true)
+#4 C:\xampp\htdocs\dmgt_ci4\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#5 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Home.php(48): view('frontend/home', Array)
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-07 00:29:15 --> Undefined index: product_name
+#0 C:\xampp\htdocs\dmgt_ci4\app\Views\frontend\base.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 137, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(226): CodeIgniter\View\View->render('frontend/base', Array, true)
+#4 C:\xampp\htdocs\dmgt_ci4\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#5 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Home.php(48): view('frontend/home', Array)
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-07 00:29:39 --> Undefined index: product_name
+#0 C:\xampp\htdocs\dmgt_ci4\app\Views\frontend\base.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 137, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(226): CodeIgniter\View\View->render('frontend/base', Array, true)
+#4 C:\xampp\htdocs\dmgt_ci4\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#5 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Home.php(48): view('frontend/home', Array)
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-07 00:29:40 --> Undefined index: product_name
+#0 C:\xampp\htdocs\dmgt_ci4\app\Views\frontend\base.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 137, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(226): CodeIgniter\View\View->render('frontend/base', Array, true)
+#4 C:\xampp\htdocs\dmgt_ci4\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#5 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Home.php(48): view('frontend/home', Array)
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-07 00:29:40 --> Undefined index: product_name
+#0 C:\xampp\htdocs\dmgt_ci4\app\Views\frontend\base.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 137, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(226): CodeIgniter\View\View->render('frontend/base', Array, true)
+#4 C:\xampp\htdocs\dmgt_ci4\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#5 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Home.php(48): view('frontend/home', Array)
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-07 00:30:35 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\dmgt_ci4\app\Views\frontend\base.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 137, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(226): CodeIgniter\View\View->render('frontend/base', Array, true)
+#4 C:\xampp\htdocs\dmgt_ci4\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#5 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Home.php(48): view('frontend/home', Array)
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-07 00:31:55 --> Undefined variable: key
+#0 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-07 00:32:04 --> Undefined variable: key
+#0 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-07 00:32:05 --> Undefined variable: key
+#0 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-07 00:32:05 --> Undefined variable: key
+#0 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-07 00:35:00 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\dmgt_ci4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\dmgt_ci4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-07 00:35:41 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\dmgt_ci4\app\Views\frontend\base.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 137, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(226): CodeIgniter\View\View->render('frontend/base', Array, true)
+#4 C:\xampp\htdocs\dmgt_ci4\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#5 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Home.php(53): view('frontend/home', Array)
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-07 00:36:29 --> Illegal string offset 'product_name'
+#0 C:\xampp\htdocs\dmgt_ci4\app\Views\frontend\base.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 138, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(226): CodeIgniter\View\View->render('frontend/base', Array, true)
+#4 C:\xampp\htdocs\dmgt_ci4\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#5 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Home.php(53): view('frontend/home', Array)
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-07 00:37:13 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\dmgt_ci4\app\Views\frontend\base.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 137, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(226): CodeIgniter\View\View->render('frontend/base', Array, true)
+#4 C:\xampp\htdocs\dmgt_ci4\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#5 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Home.php(53): view('frontend/home', Array)
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-07 00:37:52 --> Array to string conversion
+#0 C:\xampp\htdocs\dmgt_ci4\app\Views\frontend\base.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 138, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(226): CodeIgniter\View\View->render('frontend/base', Array, true)
+#4 C:\xampp\htdocs\dmgt_ci4\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#5 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Home.php(53): view('frontend/home', Array)
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-07 00:37:53 --> Array to string conversion
+#0 C:\xampp\htdocs\dmgt_ci4\app\Views\frontend\base.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 138, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(226): CodeIgniter\View\View->render('frontend/base', Array, true)
+#4 C:\xampp\htdocs\dmgt_ci4\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#5 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Home.php(53): view('frontend/home', Array)
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-07 00:38:39 --> Undefined variable: product_data
+#0 C:\xampp\htdocs\dmgt_ci4\app\Views\frontend\base.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 137, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(226): CodeIgniter\View\View->render('frontend/base', Array, true)
+#4 C:\xampp\htdocs\dmgt_ci4\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#5 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Home.php(53): view('frontend/home', Array)
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-07 00:39:29 --> Array to string conversion
+#0 C:\xampp\htdocs\dmgt_ci4\app\Views\frontend\base.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 138, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(226): CodeIgniter\View\View->render('frontend/base', Array, true)
+#4 C:\xampp\htdocs\dmgt_ci4\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#5 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Home.php(53): view('frontend/home', Array)
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-07 01:17:27 --> Undefined variable: category_data
+#0 C:\xampp\htdocs\dmgt_ci4\app\Views\frontend\home.php(182): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 182, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dmgt_ci4\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Home.php(49): view('frontend/home', Array)
+#5 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-07 02:52:23 --> Undefined variable: row
+#0 C:\xampp\htdocs\dmgt_ci4\app\Views\backend\editProduct.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dmgt_ci4\system\Common.php(1089): CodeIgniter\View\View->render('backend/editPro...', Array, true)
+#4 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Product.php(157): view('backend/editPro...', Array)
+#5 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Product->editProduct('2')
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-07 02:52:40 --> Undefined index: contents
+#0 C:\xampp\htdocs\dmgt_ci4\app\Views\backend\editProduct.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dmgt_ci4\system\Common.php(1089): CodeIgniter\View\View->render('backend/editPro...', Array, true)
+#4 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Product.php(157): view('backend/editPro...', Array)
+#5 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Product->editProduct('2')
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-07 02:52:41 --> Undefined index: contents
+#0 C:\xampp\htdocs\dmgt_ci4\app\Views\backend\editProduct.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dmgt_ci4\system\Common.php(1089): CodeIgniter\View\View->render('backend/editPro...', Array, true)
+#4 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Product.php(157): view('backend/editPro...', Array)
+#5 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Product->editProduct('2')
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-07 04:36:58 --> Undefined variable: files
+#0 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 66, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->addBrand()
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-07 06:14:26 --> Call to undefined method App\Models\BrandModel::inser
+#0 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(72): CodeIgniter\Model->__call('inser', Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->addBrand()
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-07 06:15:52 --> Call to undefined method App\Models\BrandModel::sava
+#0 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(72): CodeIgniter\Model->__call('sava', Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->addBrand()
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-07 06:16:55 --> Call to undefined method App\Models\BrandModel::sava
+#0 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(74): CodeIgniter\Model->__call('sava', Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->addBrand()
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-07 07:03:19 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\xampp\htdocs\dmgt_ci4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/Brands')
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin/Brands')
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-07 07:04:42 --> Too few arguments to function CodeIgniter\HTTP\IncomingRequest::getFile(), 0 passed in C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php on line 88 and exactly 1 expected
+#0 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(88): CodeIgniter\HTTP\IncomingRequest->getFile()
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->editBrand()
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-07 07:05:53 --> Too few arguments to function CodeIgniter\HTTP\IncomingRequest::getFile(), 0 passed in C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php on line 88 and exactly 1 expected
+#0 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(88): CodeIgniter\HTTP\IncomingRequest->getFile()
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->editBrand()
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-07 07:06:47 --> Too few arguments to function CodeIgniter\HTTP\IncomingRequest::getFile(), 0 passed in C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php on line 88 and exactly 1 expected
+#0 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(88): CodeIgniter\HTTP\IncomingRequest->getFile()
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->editBrand()
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-07 07:09:12 --> Too few arguments to function CodeIgniter\HTTP\IncomingRequest::getFile(), 0 passed in C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php on line 88 and exactly 1 expected
+#0 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(88): CodeIgniter\HTTP\IncomingRequest->getFile()
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->editBrand()
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-07 07:09:25 --> Too few arguments to function CodeIgniter\HTTP\IncomingRequest::getFile(), 0 passed in C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php on line 88 and exactly 1 expected
+#0 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(88): CodeIgniter\HTTP\IncomingRequest->getFile()
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->editBrand()
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-07 07:22:07 --> syntax error, unexpected 'isValid' (T_STRING)
+#0 C:\xampp\htdocs\dmgt_ci4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/Brands')
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin/Brands')
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-07 07:22:23 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->editBrand()
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-07 07:24:47 --> syntax error, unexpected '$id' (T_VARIABLE)
+#0 C:\xampp\htdocs\dmgt_ci4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/Brands')
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin/Brands')
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-07 07:26:10 --> Too few arguments to function CodeIgniter\HTTP\IncomingRequest::getFile(), 0 passed in C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php on line 91 and exactly 1 expected
+#0 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(91): CodeIgniter\HTTP\IncomingRequest->getFile()
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->editBrand()
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-07 07:42:49 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\dmgt_ci4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/Brands')
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin/Brands')
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-07 07:43:01 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\dmgt_ci4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/Brands')
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin/Brands')
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-07 07:43:03 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\dmgt_ci4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/Brands')
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin/Brands')
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-07 07:53:07 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\dmgt_ci4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/Brands')
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin/Brands')
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

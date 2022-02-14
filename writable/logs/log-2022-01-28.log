@@ -1,0 +1,14 @@
+CRITICAL - 2022-01-28 23:02:36 --> Undefined variable: id
+#0 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(252): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 252, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->getCategoryById()
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 23:25:01 --> Undefined variable: postData
+#0 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Admin.php(253): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 253, Array)
+#1 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Admin->getCategoryById()
+#2 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

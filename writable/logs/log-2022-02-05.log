@@ -1,0 +1,70 @@
+CRITICAL - 2022-02-05 01:17:35 --> Invalid file: base.php
+#0 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('base.php')
+#1 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(226): CodeIgniter\View\View->render('base', Array, true)
+#2 C:\xampp\htdocs\dmgt_ci4\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#3 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Home.php(19): view('frontend/home')
+#4 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-05 01:18:02 --> Invalid file: base.php
+#0 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('base.php')
+#1 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(226): CodeIgniter\View\View->render('base.php', Array, true)
+#2 C:\xampp\htdocs\dmgt_ci4\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#3 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Home.php(19): view('frontend/home')
+#4 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-05 01:19:59 --> Invalid file: base.php
+#0 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('base.php')
+#1 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(226): CodeIgniter\View\View->render('base', Array, true)
+#2 C:\xampp\htdocs\dmgt_ci4\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#3 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Home.php(19): view('frontend/home')
+#4 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-05 01:20:00 --> Invalid file: base.php
+#0 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('base.php')
+#1 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(226): CodeIgniter\View\View->render('base', Array, true)
+#2 C:\xampp\htdocs\dmgt_ci4\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#3 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Home.php(19): view('frontend/home')
+#4 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-05 01:20:00 --> Invalid file: base.php
+#0 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('base.php')
+#1 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(226): CodeIgniter\View\View->render('base', Array, true)
+#2 C:\xampp\htdocs\dmgt_ci4\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#3 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Home.php(19): view('frontend/home')
+#4 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-05 01:20:01 --> Invalid file: base.php
+#0 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('base.php')
+#1 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(226): CodeIgniter\View\View->render('base', Array, true)
+#2 C:\xampp\htdocs\dmgt_ci4\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#3 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Home.php(19): view('frontend/home')
+#4 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-05 01:20:01 --> Invalid file: base.php
+#0 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('base.php')
+#1 C:\xampp\htdocs\dmgt_ci4\system\View\View.php(226): CodeIgniter\View\View->render('base', Array, true)
+#2 C:\xampp\htdocs\dmgt_ci4\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#3 C:\xampp\htdocs\dmgt_ci4\app\Controllers\Home.php(19): view('frontend/home')
+#4 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dmgt_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dmgt_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
