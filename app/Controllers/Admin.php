@@ -116,7 +116,7 @@ if(!$this->request->getFile('edit_brand_logo'))){
         
          if (!$this->validate($rules)) {
 
-           $msg= ["status"=>0];
+           //$msg= ["status"=>0];
         } else{
 
            //$this->brand->update($id,$data);
